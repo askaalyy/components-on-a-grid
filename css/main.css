@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family:
+  font-family: georgia, serif;
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *,
