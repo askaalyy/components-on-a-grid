@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: georgia, serif;
+  font-family: "georgia", serif;
   box-sizing: border-box;
   line-height: 1.5;
 }
@@ -18,4 +18,20 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.logo {
+  width: 14rem;
+  grid-column: 1;
+  align-self: end;
+  grid-row: 1;
+
+
 }
