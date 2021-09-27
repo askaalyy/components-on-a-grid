@@ -52,8 +52,14 @@ nav {
 
 h2, li {
   font-family: "Patua One", sans-serif;
-  color: #30658d;
 }
+
+h2 {
+  color: #30658d;
+  margin:  1rem 0 0;
+}
+
+
 
 main {
   display: contents;
