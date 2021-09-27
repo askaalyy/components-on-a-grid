@@ -47,6 +47,7 @@ nav {
   grid-row: 1;
   color: #fff;
   font-family: "Patua One", sans-serif;
+  list-style-type: none;
 }
 
 a {
