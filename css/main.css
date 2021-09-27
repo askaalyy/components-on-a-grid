@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "georgia", serif;
-  box-sizing: border-box;
+  font-family: georgia, serif;
   line-height: 1.5;
   background-color: #f2f1ed;
 }
@@ -26,10 +25,10 @@ body {
   padding: 1rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns:  repeat(2,1fr) ;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
   "banner banner"
-  "col1 col2"
+  "col1 col2";
 }
 
 .logo {
@@ -40,13 +39,20 @@ body {
   margin-left: 1rem;
   margin-bottom: 1rem;
   z-index: 1;
-
 }
 
 h2 li {
   font-family: "Patua One", sans-serif;
+  color: #30658d;
 }
 
 main {
   display: contents;
+  display: flex;
+  grid-area: top;
+}
+
+nav {
+  grid-area: banner;
+  grid column: 2;
 }
