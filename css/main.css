@@ -53,6 +53,8 @@ main {
 }
 
 nav {
-  grid-area: banner;
-  grid column: 2;
+  grid-area: "banner";
+  grid-column: 2;
+  color: #fff;
+  font-family: "Patua One", sans-serif;
 }
