@@ -18,6 +18,8 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  grid-template-columns: 1fr 1fr 1fr
+  grid-row: 1/5;
 }
 
 body {
@@ -57,4 +59,5 @@ nav {
   grid-column: 2;
   color: #fff;
   font-family: "Patua One", sans-serif;
+
 }
