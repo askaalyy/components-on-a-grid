@@ -55,15 +55,13 @@ a {
   font-size: 2rem;
 }
 
-
-
 h2, li {
   font-family: "Patua One", sans-serif;
 }
 
 h2 {
   color: #30658d;
-  margin:  1rem 0 0;
+  margin: 1rem 0 0;
 }
 
 p {
@@ -74,11 +72,15 @@ main {
   display: contents;
 }
 
-
 ul {
   display: flex;
 }
 
 .pano {
   grid-area: banner;
+}
+
+figure:nth-child (1) {
+  grid-area: col1;
+  margin:  0 0 1.5rem;
 }
