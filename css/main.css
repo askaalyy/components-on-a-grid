@@ -49,6 +49,13 @@ nav {
   font-family: "Patua One", sans-serif;
 }
 
+a {
+  padding: 1rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+
 
 h2, li {
   font-family: "Patua One", sans-serif;
@@ -59,7 +66,9 @@ h2 {
   margin:  1rem 0 0;
 }
 
-
+p {
+  margin: 0 0 1.5rem;
+}
 
 main {
   display: contents;
