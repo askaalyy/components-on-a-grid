@@ -80,12 +80,18 @@ ul {
   grid-area: banner;
 }
 
+figure {
+  margin: 0;
+}
+
 figure:nth-child (1) {
   grid-area: col1;
-  margin:  0 0 0;
 }
 
 figure:nth-child (2) {
   grid-area: col2;
-  margin:  0 0 0;
+}
+
+figure img {
+  margin-bottom: 1rem;
 }
