@@ -82,5 +82,11 @@ ul {
 
 figure:nth-child (1) {
   grid-area: col1;
-  margin:  0 0 1.5rem;
+  margin:  1rem 0 0;
+}
+
+
+figure:nth-child (2) {
+  grid-area: col2;
+  margin:  1rem 0 0;
 }
